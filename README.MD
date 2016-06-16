@@ -3,7 +3,7 @@ Command Line Arguments
 before running the program, it's required to run make.
 Example:  ./prog2<intput.txt>output.txt
 
-This program implenets the kruskal's Algorithm,and finds the cheapest minimum spanning tree in the given graph by the input.
+This program implements the kruskal's Algorithm and finds the cheapest minimum spanning tree in the given graph by the input.
 Kruskal’s algorithm begins by sorting the edges in increasing order of weight, and then scans edges in this order to determine whether they should be added to MST.
 Union find is used in the algorithm to detemrmine if a cycle exists.
 Method of union is (union by rank), and path compression is done once find operation is executed.
